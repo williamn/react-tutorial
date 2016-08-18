@@ -9,6 +9,6 @@ var data = [
 ];
 
 ReactDOM.render(
-  <CommentBox url="/api/comments" />,
+  <CommentBox url="http://localhost:3001/api/comments" />,
   document.getElementById('content')
 );

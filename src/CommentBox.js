@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class CommentBox extends Component {
   render() {
     return (
-      <div className="CommentBox">
+      <div className="commentBox">
         Hello, world! I am a CommentBox.
       </div>
     );

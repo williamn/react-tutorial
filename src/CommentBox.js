@@ -5,8 +5,11 @@ import CommentForm from './CommentForm';
 var $ = require('jquery');
 
 class CommentBox extends Component {
-  getInitialState() {
-    return {data: []};
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: []
+    };
   }
 
   loadCommentsFromServer() {

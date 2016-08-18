@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 
 class CommentForm extends Component {
-  getInitialState() {
-    return {author: '', text: ''};
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: []
+    };
   }
 
   handleAuthorChange(e) {

@@ -10,6 +10,8 @@ class CommentBox extends Component {
     this.state = {
       data: []
     };
+
+    this.handleCommentSubmit = this.handleCommentSubmit.bind(this);
   }
 
   loadCommentsFromServer() {

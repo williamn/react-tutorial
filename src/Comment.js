@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Remarkable from 'remarkable';
 
 class Comment extends Component {
 	rawMarkup() {
